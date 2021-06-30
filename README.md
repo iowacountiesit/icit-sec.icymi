@@ -32,7 +32,7 @@ Link | Description
 
 *A link is not an endorsement. Your cybers may vary.*
 
-- [@zackwhittaker](https://twitter.com/zackwhittaker)'s ~this week in security~: https://this.weekinsecurity.com
+- [@zackwhittaker](https://twitter.com/zackwhittaker)'s \~this week in security\~: https://this.weekinsecurity.com
 - The CyberWire Daily Briefing: https://thecyberwire.com/newsletters/daily-briefing
 - CISA Alerts: https://us-cert.cisa.gov/ncas/alerts
 - CIS Advisories: https://www.cisecurity.org/resources/?type=advisory
