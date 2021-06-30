@@ -3,7 +3,7 @@
 
 ## What is this?
 
-This repo contains markdown (.md) slides, made for use with <a target="_blank" rel="noopener" href="https://github.com/msoedov/hacker-slides">hacker-slides</a>, for the Iowa County Information Technology (ICIT) Security Committee (ICIT-SEC) monthly meetings. Each month during the ICIT-SEC Zoom call, we discuss notable InfoSec (a/k/a cyber security for the cool crowd :sunglasses:) news since the last meeting in a recurring segment called, "ICYMI" (you know, *in case you missed it*).
+This repo contains markdown (.md) slides, made for use with [hacker-slides](https://github.com/msoedov/hacker-slides), for the Iowa County Information Technology (ICIT) Security Committee (ICIT-SEC) monthly meetings. Each month during the ICIT-SEC Zoom call, we discuss notable InfoSec (a/k/a cyber security for the cool crowd :sunglasses:) news since the last meeting in a recurring segment called, "ICYMI" (you know, *in case you missed it*).
 
 We'll link to articles on the web. All materials are copyright their respective owners and governed by their respective licences. Anything created here for ICIT-SEC is under MIT licence (see [LICENSE](LICENSE) file) and generally worth^H^H^H^H^H^H priceless!
 
@@ -25,7 +25,7 @@ Resource | Description
 
 Link | Description
 --- | ---
-<a target="_blank" rel="noopener" href="https://github.com/msoedov/hacker-slides">hacker-slides</a> | GitHub repo for a lovely <a target="_blank" rel="noopener" href="https://revealjs.com">RevealJS</a>-based slideshow project
-<a target="_blank" rel="noopener" href="https://iowacountiesit.org">ICIT</a> | Iowa Counties Information Technology, IT affiliate for the <a target="_blank" rel="noopener" href="https://iowacounties.org">Iowa State Assocation of Counties</a>
+[hacker-slides](https://github.com/msoedov/hacker-slides) | GitHub repo for a lovely [RevealJS](https://revealjs.com)-based slideshow project
+[ICIT](https://iowacountiesit.org) | Iowa Counties Information Technology, IT affiliate for the [Iowa State Assocation of Counties](https://iowacounties.org)
 
-<a target="_blank" rel="noopener" href="https://forensic.coffee">@anthonykava</a> :male_detective: 2021-06-30
+[@anthonykava](https://forensic.coffee) :male_detective: 2021-06-30
