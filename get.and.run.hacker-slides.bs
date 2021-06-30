@@ -46,7 +46,7 @@ if [ ! -e "$GOPATH" ]; then mkdir -p "${GOPATH}/bin"; fi
 if [ -e "hacker-slides" ]; then rm -rvf hacker-slides; fi
 
 # launch our browser after $sleep seconds (kludge)
-( sleep "$sleep"; xdg-open http://localhost:8080 ) &
+( sleep "$sleep"; xdg-open http://localhost:8080/stash ) &
 
 # clone repo, copy slides and images, get go dependencies (if needed), and launch hacker-slides
 git clone "$hsrepo" \
