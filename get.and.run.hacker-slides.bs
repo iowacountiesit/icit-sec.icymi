@@ -3,17 +3,20 @@
 # ======================================================================
 # get.and.run.hacker-slides.bs
 # ======================================================================
-# @anthonykava                                                2021-06-30
 #
 # clones hacker-slides from my fork of hacker-slides [1] for stability
 # copies slides (slides/*.md) and images (slides/images/*) to slides dir
-# launches a browser for http://localhost:8080 (hacker-slides)
-# messy for now
+# launches a browser for http://localhost:8080 (hacker-slides) -- messy!
 #
 # [1] https://github.com/msoedov/hacker-slides
+#
+# ======================================================================
+# @anthonykava            https://pcso.link/icymi             2021-06-30
+#              https://github.com/anthonykava/icit-sec.icymi
+# ======================================================================
 
-sleep="5"		# second(s) before opening browser (lazy method, I know)
-timeout="2h"	# time before timing-out hacker-slides HTTP listener
+sleep="5"       # second(s) before opening browser (lazy method, I know)
+timeout="2h"    # time before timing-out hacker-slides HTTP listener
 
 # ensuring we use go 1.12
 export GOROOT="`pwd`/go"
@@ -21,21 +24,27 @@ export GOPATH="$HOME/go1.12"
 export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
 
 # download go 1.12 and unpack if needed
+gotarball="go1.12.linux-amd64.tar.gz"
+godownload="https://dl.google.com/go/${gotarball}"
 if [ !-e "$GOPATH" ]; then
-	if [ !-e "go1.12.linux-amd64.tar.gz" ]; then wget "https://dl.google.com/go/go1.12.linux-amd64.tar.gz"; fi
-	tar xzvf "go1.12.linux-amd64.tar.gz" && rm -v "go1.12.linux-amd64.tar.gz"
+    if [ !-e "$gotarball" ]; then curl -v "$godownload" -o "$gotarball"; fi
+    tar xzvf "$gotarball"
 fi
 
 # create bin path under $GOPATH if needed
-if [ !-e "$GOPATH" ]; then mkdir -p "$GOPATH/bin"; fi
+if [ !-e "$GOPATH" ]; then mkdir -p "${GOPATH}/bin"; fi
 
-# launch our browser after ten $sleep seconds
-( sleep "${sleep}"; xdg-open http://localhost:8080 ) &
+# launch our browser after $sleep seconds
+( sleep "$sleep"; xdg-open http://localhost:8080 ) &
 
 # clear-out old install if any
 if [ -e "hacker-slides" ]; then rm -rvf hacker-slides; fi
 
 # clone repo, copy slides and images, get go dependencies (if needed), and launch hacker-slides
-git clone https://github.com/anthonykava/hacker-slides && rsync -av --exclude="*.swp" slides hacker-slides/ && cd hacker-slides && go get && timeout --foreground "${timeout}" go run main.go
+git clone https://github.com/anthonykava/hacker-slides \
+    && rsync -av --exclude="*.swp" slides hacker-slides/ \
+    && cd hacker-slides \
+    && go get \
+    && timeout --foreground "${timeout}" go run main.go
 
 # ^C to stop the HTTP listener
