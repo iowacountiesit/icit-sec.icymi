@@ -28,4 +28,14 @@ Link | Description
 [hacker-slides](https://github.com/msoedov/hacker-slides) | GitHub repo for a lovely [RevealJS](https://revealjs.com)-based slideshow project
 [ICIT](https://iowacountiesit.org) | Iowa Counties Information Technology, IT affiliate for the [Iowa State Assocation of Counties](https://iowacounties.org)
 
+## Some Ways to Keep Informed on InfoSec
+
+*A link is not an endorsement. Your cybers may vary.*
+
+- [@zackwhittaker](https://twitter.com/zackwhittaker)'s ~this week in security~: https://this.weekinsecurity.com
+- The CyberWire Daily Briefing: https://thecyberwire.com/newsletters/daily-briefing
+- CISA Alerts: https://us-cert.cisa.gov/ncas/alerts
+- CIS Advisories: https://www.cisecurity.org/resources/?type=advisory
+- AlienVault Open Threat Exchange (OTX): https://otx.alienvault.com
+
 [@anthonykava](https://forensic.coffee) :male_detective: 2021-06-30
