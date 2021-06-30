@@ -35,7 +35,7 @@ export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
 if [ ! -e "$GOROOT" ]; then
     if [ ! -e "$gotarball" ]; then
         wget -O "$gotarball" "$godownload" \
-        && tar xzvf "$gotarball"
+            && tar xzvf "$gotarball"
     fi
 fi
 
