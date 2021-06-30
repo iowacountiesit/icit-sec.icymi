@@ -5,7 +5,7 @@
 
 This repo contains markdown (.md) slides, made for use with [hacker-slides](https://github.com/msoedov/hacker-slides), for the Iowa County Information Technology (ICIT) Security Committee (ICIT-SEC) monthly meetings. Each month during the ICIT-SEC Zoom call, we discuss notable InfoSec (a/k/a cyber security for the cool crowd :sunglasses:) news since the last meeting in a recurring segment called, "ICYMI" (you know, *in case you missed it*).
 
-We'll link to articles on the web. All materials are copyright their respective owners and governed by their respective licences. Anything created here for ICIT-SEC is under MIT licence (see [LICENSE](LICENSE) file) and generally worth^H^H^H^H^H^H priceless!
+We'll link to articles on the web. All materials are copyright their respective owners and governed by their respective licences. Anything created here for ICIT-SEC is under MIT licence (see [LICENSE](LICENSE) file) and generally worth ^H^H^H^H^H^H^H priceless!
 
 ## Meeting Slides
 
