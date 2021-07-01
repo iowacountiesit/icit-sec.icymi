@@ -7,7 +7,7 @@ This repo contains markdown (.md) slides, made for use with [hacker-slides](http
 
 We'll link to articles on the web. All materials are copyright their respective owners and governed by their respective licences. Anything created here for ICIT-SEC is under MIT licence (see [LICENSE](LICENSE) file) and generally worth ^H^H^H^H^H^H^H priceless!
 
-## Meeting Slides
+## Meeting Slides and Links
 
 Meeting Date | Highlights
 --- | ---
@@ -30,13 +30,13 @@ Link | Description
 
 ## Alerts and Newsletters to Keep Informed on InfoSec
 
-*A link is not an endorsement. Your cybers may vary.*
-
 - [@zackwhittaker](https://twitter.com/zackwhittaker)'s \~this week in security\~: https://this.weekinsecurity.com
 - SANS @RISK: https://www.sans.org/newsletters/at-risk
 - The CyberWire Daily Briefing: https://thecyberwire.com/newsletters/daily-briefing
 - CISA Alerts: https://us-cert.cisa.gov/ncas/alerts
 - CIS Advisories: https://www.cisecurity.org/resources/?type=advisory
 - AlienVault Open Threat Exchange (OTX): https://otx.alienvault.com
+
+*A link is not an endorsement. Your cybers may vary.*
 
 [@anthonykava](https://forensic.coffee) :male_detective:
