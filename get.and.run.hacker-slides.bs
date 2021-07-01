@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# ======================================================================
-# get.and.run.hacker-slides.bs
-# ======================================================================
+#=======================================================================
+#                        get.and.run.hacker-slides.bs
+#=======================================================================
 #
 # Clones hacker-slides [1] from my  fork (for stability),  copies slides
 # (e.g., slides/*.md) to hacker-slides/slides dir, then uses xdg-open to
@@ -14,10 +14,10 @@
 #
 # [1] https://github.com/msoedov/hacker-slides
 #
-# ======================================================================
-# @anthonykava            https://pcso.link/icymi             2021-06-30
+#=======================================================================
+# @anthonykava            https://pcso.link/icymi             2021-07-01
 #              https://github.com/anthonykava/icit-sec.icymi
-# ======================================================================
+#=======================================================================
 
 # variables
 sleep="10"      # second(s) before opening browser (lazy method, I know)
@@ -43,16 +43,28 @@ fi
 if [ ! -e "$GOPATH" ]; then mkdir -p "${GOPATH}/bin"; fi
 
 # clear-out old install if any
-if [ -e "hacker-slides" ]; then rm -rvf hacker-slides; fi
+if [ -e "hacker-slides" ]; then rm -rvf ./hacker-slides; fi
 
 # launch our browser after $sleep seconds (kludge)
-( sleep "$sleep"; xdg-open http://localhost:8080/stash ) &
+( sleep "$sleep"; xdg-open "http://localhost:8080/stash" ) &
 
-# clone repo, copy slides and images, get go dependencies (if needed), and launch hacker-slides
+#-------------------------[ TOFU AND POTATOES ]-------------------------
+#
+# clone the hacker-slides repo,  copy (rsync) our slides and images into
+# ./hacker-slides/, cd into ./hacker-slides,  go get go dependencies (if
+# needed), and then, finally, launch hacker-slides which listens on 8080
+# for HTTP (the intended target for our web browser xdg-open(1) above
+#
 git clone "$hsrepo" \
-    && rsync -av --exclude="*.swp" slides hacker-slides/ \
-    && cd hacker-slides \
+    && rsync -av --exclude="*.swp" slides ./hacker-slides/ \
+    && cd ./hacker-slides \
     && go get \
     && timeout --foreground "$timeout" go run main.go
 
-# ^C to stop the HTTP listener
+# some notes:
+#   * press ^C to stop the HTTP listener after launched
+#   * ./hacker-slides is ephemeral on purpose
+#   * ./slides is meant to be the non-volatile source for slides
+#   * this script relies on these commands (apart from bash):
+#     - pwd, wget, tar, mkdir, rm, sleep, xdg-open, rsync, and go
+#     - ( it will download x64 go 1.12 automagically )
