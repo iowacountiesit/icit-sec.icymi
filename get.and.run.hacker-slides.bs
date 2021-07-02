@@ -15,8 +15,8 @@
 # [1] https://github.com/msoedov/hacker-slides
 #
 #=======================================================================
-# @anthonykava            https://pcso.link/icymi             2021-07-01
-#              https://github.com/anthonykava/icit-sec.icymi
+# @anthonykava            https://icit.link/icymi             2021-07-01
+#             https://github.com/iowacountiesit/icit-sec.icymi
 #=======================================================================
 
 # variables
@@ -27,9 +27,9 @@ gotarball="go1.12.linux-amd64.tar.gz"                 # tar-ball for go
 godownload="https://dl.google.com/go/${gotarball}"    # URL to download
 
 # ensuring we use go 1.12 (hacker-slides requires >=1.12)
-export GOROOT="`pwd`/go"
-export GOPATH="$HOME/go1.12"
-export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
+export GOROOT="${PWD}/go"
+export GOPATH="${HOME}/go1.12"
+export PATH="${GOPATH}/bin:${GOROOT}/bin:${PATH}"
 
 # download go 1.12 and unpack if needed
 if [ ! -e "$GOROOT" ]; then
@@ -40,10 +40,14 @@ if [ ! -e "$GOROOT" ]; then
 fi
 
 # create bin path under $GOPATH if needed
-if [ ! -e "$GOPATH" ]; then mkdir -p "${GOPATH}/bin"; fi
+if [ ! -e "$GOPATH" ]; then
+    mkdir -p "${GOPATH}/bin"
+fi
 
 # clear-out old install if any
-if [ -e "hacker-slides" ]; then rm -rvf ./hacker-slides; fi
+if [ -e "./hacker-slides" ]; then
+    rm --one-file-system -rvf ./hacker-slides
+fi
 
 # launch our browser after $sleep seconds (kludge)
 ( sleep "$sleep"; xdg-open "http://localhost:8080/stash" ) &
@@ -56,7 +60,7 @@ if [ -e "hacker-slides" ]; then rm -rvf ./hacker-slides; fi
 # for HTTP (the intended target for our web browser xdg-open(1) above
 #
 git clone "$hsrepo" \
-    && rsync -av --exclude="*.swp" slides ./hacker-slides/ \
+    && rsync -av --exclude="*.swp" ./slides ./hacker-slides/ \
     && cd ./hacker-slides \
     && go get \
     && timeout --foreground "$timeout" go run main.go
