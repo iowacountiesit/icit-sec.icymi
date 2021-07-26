@@ -15,7 +15,7 @@
 # [1] https://github.com/msoedov/hacker-slides
 #
 #=======================================================================
-# @anthonykava            https://icit.link/icymi             2021-07-01
+# @anthonykava            https://icit.link/icymi             2021-07-26
 #             https://github.com/iowacountiesit/icit-sec.icymi
 #=======================================================================
 
@@ -44,9 +44,9 @@ if [ ! -e "$GOPATH" ]; then
     mkdir -p "${GOPATH}/bin"
 fi
 
-# clear-out old install if any
-if [ -e "./hacker-slides" ]; then
-    rm --one-file-system -rvf ./hacker-slides
+# clear-out old slides under ./hacker-slides, if any
+if [ -e "./hacker-slides/slides" ]; then
+    rm --one-file-system -rvf ./hacker-slides/slides/*
 fi
 
 # launch our browser after $sleep seconds (kludge)
@@ -59,11 +59,18 @@ fi
 # needed), and then, finally, launch hacker-slides which listens on 8080
 # for HTTP (the intended target for our web browser xdg-open(1) above
 #
-git clone "$hsrepo" \
-    && rsync -av --exclude="*.swp" ./slides ./hacker-slides/ \
-    && cd ./hacker-slides \
-    && go get \
-    && timeout --foreground "$timeout" go run main.go
+if [ ! -e "./hacker-slides" ]; then
+	git clone "$hsrepo"
+fi
+
+if [ -e "./hacker-slides" ]; then
+    rsync -av --exclude="*.swp" ./slides ./hacker-slides/ \
+	    && cd ./hacker-slides \
+	    && go get \
+	    && timeout --foreground "$timeout" go run main.go
+else
+	echo "FATAL: seem to be missing hacker-slides"
+fi
 
 # some notes:
 #   * press ^C to stop the HTTP listener after launched
