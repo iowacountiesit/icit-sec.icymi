@@ -13,7 +13,8 @@ Meeting Date | Highlights
 --- | ---
 :floppy_disk: [2021-06-30](slides/2021-06-30.icit-sec.icymi.slides.md) | SCOTUS on Van Buren, Win 11, WD NAS wipes, Bills on ransomware payments,<br>MS-ISAC real-time feed offering, NACo cyberattack exercise,<br>MS-signed Netfilter rootkit driver, PrintNightmare, LI "leak"
 :floppy_disk: [2021-07-28](slides/2021-07-28.icit-sec.icymi.slides.md) | Dell BIOS vulns, Update on WD My Book, Fancy Bear Brute-forcing, Kaseya,<br>#PrintNightmare, NSO Group, AD pwnage
-/* :construction: */
+
+<!-- :construction: -->
 
 ## Lay of the Repo
 
