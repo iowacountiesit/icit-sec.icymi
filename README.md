@@ -14,6 +14,7 @@ Meeting Date | Highlights
 :floppy_disk: [2021-06-30](slides/2021-06-30.icit-sec.icymi.slides.md) | SCOTUS on Van Buren, Win 11, WD NAS wipes, Bills on ransomware payments,<br>MS-ISAC real-time feed offering, NACo cyberattack exercise,<br>MS-signed Netfilter rootkit driver, PrintNightmare, LI "leak"
 :floppy_disk: [2021-07-28](slides/2021-07-28.icit-sec.icymi.slides.md) | Dell BIOS vulns, Update on WD My Book, Fancy Bear Brute-forcing, Kaseya,<br>#PrintNightmare, NSO Group, AD pwnage
 :floppy_disk: [2021-09-29](slides/2021-09-29.icit-sec.icymi.slides.md) | Co-op ransomware, iOS and MS 0-dayz, Apple CSAM fighting and retreating<br>See no REvil decryptor, vCenter, Razer (no 1911)
+:floppy_disk: [2021-10-27](slides/2021-10-27.icit-sec.icymi.slides.md) | FB BGP, Twitch breach, Rick-rolls, a deep-faked voice<br>and F12 and find out in Missouri
 
 <!-- :construction: -->
 
