@@ -15,6 +15,7 @@ Meeting Date | Highlights
 :floppy_disk: [2021-07-28](slides/2021-07-28.icit-sec.icymi.slides.md) | Dell BIOS vulns, Update on WD My Book, Fancy Bear Brute-forcing, Kaseya,<br>#PrintNightmare, NSO Group, AD pwnage
 :floppy_disk: [2021-09-29](slides/2021-09-29.icit-sec.icymi.slides.md) | Co-op ransomware, iOS and MS 0-dayz, Apple CSAM fighting and retreating<br>See no REvil decryptor, vCenter, Razer (no 1911)
 :floppy_disk: [2021-10-27](slides/2021-10-27.icit-sec.icymi.slides.md) | FB BGP, Twitch breach, Rick-rolls, a deep-faked voice<br>and F12 and find out in Missouri
+:floppy_disk: [2022-01-05](slides/2022-01-05.icit-sec.icymi.slides.md) | Log4Shell, Kronos ransomware, more Exchange ProxyShell<br>Exchange Y2K-22 Bug, LastPass non-breach, More MO<br>LEEP emails, UK IoT bill
 
 <!-- :construction: -->
 
