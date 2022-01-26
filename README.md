@@ -11,12 +11,12 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
-:floppy_disk: [2021-06-30](slides/2021-06-30.icit-sec.icymi.slides.md) | SCOTUS on Van Buren, Win 11, WD NAS wipes, Bills on ransomware payments,<br>MS-ISAC real-time feed offering, NACo cyberattack exercise,<br>MS-signed Netfilter rootkit driver, PrintNightmare, LI "leak"
-:floppy_disk: [2021-07-28](slides/2021-07-28.icit-sec.icymi.slides.md) | Dell BIOS vulns, Update on WD My Book, Fancy Bear Brute-forcing, Kaseya,<br>#PrintNightmare, NSO Group, AD pwnage
-:floppy_disk: [2021-09-29](slides/2021-09-29.icit-sec.icymi.slides.md) | Co-op ransomware, iOS and MS 0-dayz, Apple CSAM fighting and retreating<br>See no REvil decryptor, vCenter, Razer (no 1911)
-:floppy_disk: [2021-10-27](slides/2021-10-27.icit-sec.icymi.slides.md) | FB BGP, Twitch breach, Rick-rolls, a deep-faked voice and F12 and find out<br>in Missouri
-:floppy_disk: [2022-01-05](slides/2022-01-05.icit-sec.icymi.slides.md) | Log4Shell, Kronos ransomware, more Exchange ProxyShell plus Y2K-22 Bug,<br>LastPass non-breach, More MO, LEEP emails, UK IoT bill, VZW tracking
 :floppy_disk: [2022-01-26](slides/2022-01-26.icit-sec.icymi.slides.md) | Remember the Log4Shell, Bernalillo County ransomware impact, MO MO MO<br>REvil arrests, Zoho vuln (again), numbers station pirates, Twitter fired Mudge!<br>Ukraine Whispergate, Belarus rail-ransomware, Merck cyber insurance win, PwnKit
+:floppy_disk: [2022-01-05](slides/2022-01-05.icit-sec.icymi.slides.md) | Log4Shell, Kronos ransomware, more Exchange ProxyShell plus Y2K-22 Bug,<br>LastPass non-breach, More MO, LEEP emails, UK IoT bill, VZW tracking
+:floppy_disk: [2021-10-27](slides/2021-10-27.icit-sec.icymi.slides.md) | FB BGP, Twitch breach, Rick-rolls, a deep-faked voice and F12 and find out<br>in Missouri
+:floppy_disk: [2021-09-29](slides/2021-09-29.icit-sec.icymi.slides.md) | Co-op ransomware, iOS and MS 0-dayz, Apple CSAM fighting and retreating<br>See no REvil decryptor, vCenter, Razer (no 1911)
+:floppy_disk: [2021-07-28](slides/2021-07-28.icit-sec.icymi.slides.md) | Dell BIOS vulns, Update on WD My Book, Fancy Bear Brute-forcing, Kaseya,<br>#PrintNightmare, NSO Group, AD pwnage
+:floppy_disk: [2021-06-30](slides/2021-06-30.icit-sec.icymi.slides.md) | SCOTUS on Van Buren, Win 11, WD NAS wipes, Bills on ransomware payments,<br>MS-ISAC real-time feed offering, NACo cyberattack exercise,<br>MS-signed Netfilter rootkit driver, PrintNightmare, LI "leak"
 
 <!-- :construction: -->
 
