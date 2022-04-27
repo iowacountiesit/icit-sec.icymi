@@ -43,6 +43,7 @@ Link | Description
 - CISA Alerts: https://us-cert.cisa.gov/ncas/alerts
 - CIS Advisories: https://www.cisecurity.org/resources/?type=advisory
 - AlienVault Open Threat Exchange (OTX): https://otx.alienvault.com
+- MS-ISAC Newsletters (Awareness): https://www.cisecurity.org/insights/newsletter
 
 *A link is not an endorsement. Your cybers may vary.*
 
