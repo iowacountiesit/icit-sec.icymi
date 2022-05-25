@@ -11,9 +11,9 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
-:floppy_disk: [2022-05-25](slides/2022-05-25.icit-sec.icymi.slides.md) | Fake exigent requests, French fibre, DJI beacons in the clear<br>BIG vuln in BIG-IP, Konica F12 and find-out, DEA breach<br>Costa Rica war against Conti, DOJ CFAA discretion (!), 2022 Verizon DBIR
-:floppy_disk: [2022-04-27](slides/2022-04-27.icit-sec.icymi.slides.md) | Russia's aggression continues, KrbRelayUp, CVE-2022-26809, INCONTROLLER<br>MS-ISAC Newsletters, OCIO SOC 24/7/365, VLC misuse, UPS attacks
-:floppy_disk: [2022-01-26](slides/2022-01-26.icit-sec.icymi.slides.md) | Remember the Log4Shell, Bernalillo County ransomware impact, MO MO MO<br>REvil arrests, Zoho vuln (again), numbers station pirates, Twitter fired Mudge!<br>Ukraine Whispergate, Belarus rail-ransomware, Merck cyber insurance win, PwnKit
+:floppy_disk: [2022-05-25](slides/2022-05-25.icit-sec.icymi.slides.md) | Fake exigent requests, French fibre, DJI beacons in the clear,<br>BIG vuln in BIG-IP, Konica F12 and find-out, DEA breach,<br>Costa Rica war against Conti, DOJ CFAA discretion (!), 2022 Verizon DBIR
+:floppy_disk: [2022-04-27](slides/2022-04-27.icit-sec.icymi.slides.md) | Russia's aggression continues, KrbRelayUp, CVE-2022-26809, INCONTROLLER,<br>MS-ISAC Newsletters, OCIO SOC 24/7/365, VLC misuse, UPS attacks
+:floppy_disk: [2022-01-26](slides/2022-01-26.icit-sec.icymi.slides.md) | Remember the Log4Shell, Bernalillo County ransomware impact, MO MO MO,<br>REvil arrests, Zoho vuln (again), numbers station pirates, Twitter fired Mudge!,<br>Ukraine Whispergate, Belarus rail-ransomware, Merck cyber insurance win, PwnKit
 :floppy_disk: [2022-01-05](slides/2022-01-05.icit-sec.icymi.slides.md) | Log4Shell, Kronos ransomware, more Exchange ProxyShell plus Y2K-22 Bug,<br>LastPass non-breach, More MO, LEEP emails, UK IoT bill, VZW tracking
 :floppy_disk: [2021-10-27](slides/2021-10-27.icit-sec.icymi.slides.md) | FB BGP, Twitch breach, Rick-rolls, a deep-faked voice and F12 and find out<br>in Missouri
 :floppy_disk: [2021-09-29](slides/2021-09-29.icit-sec.icymi.slides.md) | Co-op ransomware, iOS and MS 0-dayz, Apple CSAM fighting and retreating<br>See no REvil decryptor, vCenter, Razer (no 1911)
