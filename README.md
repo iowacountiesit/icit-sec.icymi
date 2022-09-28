@@ -11,6 +11,7 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
+:floppy_disk: [2022-09-28](slides/2022-09-28.icit-sec.icymi.slides.md) | Quantum Spell Broken, Slack Hashes, Lee County (FL),<br>TLP v2.0, Fremont County (CO), CISA Strategery, Entry by VoIP,<br>Uber + Rockstar + 17 year-old Brit, MS Teams Tokens, LastPass,<br>Kiwi Farms vs. Cloudflare, MS MECM Patch, and more!
 :floppy_disk: [2022-07-27](slides/2022-07-27.icit-sec.icymi.slides.md) | SOHO router attacks, 2022 CWE Top 25, API Costs,<br>State Dept Reward, 0-Days and Ineffective Patches, hackerone,<br>Windows vulns, 2022's Worst Breaches (So Far), Victim Profits,<br>NIST's Post-quantum Winners, Apple Lockdown Mode, RF replays,<br>and more!
 :floppy_disk: [2022-06-29](slides/2022-06-29.icit-sec.icymi.slides.md) | DBIR lessons, INTERPOL win, Twitter user data perfidy, Zoom vuln,<br>CISA says patch your VMware, MS patched Follina in June,<br>Roe v. Wade implications, Harmony $100MM crypto loss, Iran steel attacks
 :floppy_disk: [2022-05-25](slides/2022-05-25.icit-sec.icymi.slides.md) | Fake exigent requests, French fibre, DJI beacons in the clear,<br>BIG vuln in BIG-IP, Konica F12 and find-out, DEA breach,<br>Costa Rica war against Conti, DOJ CFAA discretion (!), 2022 Verizon DBIR
