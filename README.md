@@ -11,6 +11,8 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
+:floppy_disk: [2022-11-30](slides/2022-11-30.icit-sec.icymi.slides.md) | FTC yells ACTION!, Someone bought Twitter? What now?<br>Apple: only latest OSes fully patched, mid-term elections,<br>Dropbox phished, FCC ban on Huawei &amp; ZTE, Turkey Day attack
+:floppy_disk: [2022-10-26](slides/2022-10-26.icit-sec.icymi.slides.md) | Fortinet exploitage, keyboard heat + AI = passwords?<br>O365 using ECB in 2022, spying on Wi-Fi with drones,<br>Ransomware incident turns to leak, More Exchange on-premise vulns
 :floppy_disk: [2022-09-28](slides/2022-09-28.icit-sec.icymi.slides.md) | Quantum Spell Broken, Slack Hashes, Lee County (FL),<br>TLP v2.0, Fremont County (CO), CISA Strategery, Entry by VoIP,<br>Uber + Rockstar + 17 year-old Brit, MS Teams Tokens, LastPass,<br>Kiwi Farms vs. Cloudflare, MS MECM Patch, and more!
 :floppy_disk: [2022-07-27](slides/2022-07-27.icit-sec.icymi.slides.md) | SOHO router attacks, 2022 CWE Top 25, API Costs,<br>State Dept Reward, 0-Days and Ineffective Patches, hackerone,<br>Windows vulns, 2022's Worst Breaches (So Far), Victim Profits,<br>NIST's Post-quantum Winners, Apple Lockdown Mode, RF replays,<br>and more!
 :floppy_disk: [2022-06-29](slides/2022-06-29.icit-sec.icymi.slides.md) | DBIR lessons, INTERPOL win, Twitter user data perfidy, Zoom vuln,<br>CISA says patch your VMware, MS patched Follina in June,<br>Roe v. Wade implications, Harmony $100MM crypto loss, Iran steel attacks
