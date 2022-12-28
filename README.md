@@ -11,6 +11,7 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
+:floppy_disk: [2022-12-28](slides/2022-12-28.icit-sec.icymi.slides.md) | Not patched? Fire IT!, LastPass (again), Android private keys abused,<br>iCloud encryption, Infragard breached, Okta source code stolen,<br>Cott, and Auld Lang Syne Wave!
 :floppy_disk: [2022-11-30](slides/2022-11-30.icit-sec.icymi.slides.md) | FTC yells ACTION!, Someone bought Twitter? What now?<br>Apple: only latest OSes fully patched, mid-term elections,<br>Dropbox phished, FCC ban on Huawei &amp; ZTE, Turkey Day attack
 :floppy_disk: [2022-10-26](slides/2022-10-26.icit-sec.icymi.slides.md) | Fortinet exploitage, keyboard heat + AI = passwords?<br>O365 using ECB in 2022, spying on Wi-Fi with drones,<br>Ransomware incident turns to leak, More Exchange on-premise vulns
 :floppy_disk: [2022-09-28](slides/2022-09-28.icit-sec.icymi.slides.md) | Quantum Spell Broken, Slack Hashes, Lee County (FL),<br>TLP v2.0, Fremont County (CO), CISA Strategery, Entry by VoIP,<br>Uber + Rockstar + 17 year-old Brit, MS Teams Tokens, LastPass,<br>Kiwi Farms vs. Cloudflare, MS MECM Patch, and more!
