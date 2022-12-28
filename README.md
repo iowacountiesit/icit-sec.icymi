@@ -44,7 +44,7 @@ Link | Description
 
 ## Alerts and Newsletters to Keep Informed on InfoSec
 
-- [@zackwhittaker](https://twitter.com/zackwhittaker)'s \~this week in security\~: https://this.weekinsecurity.com
+- [@zackwhittaker@mastodon.social](https://mastodon.social/@zackwhittaker)'s \~this week in security\~: https://this.weekinsecurity.com
 - SANS @RISK: https://www.sans.org/newsletters/at-risk
 - The CyberWire Daily Briefing: https://thecyberwire.com/newsletters/daily-briefing
 - CISA Alerts: https://us-cert.cisa.gov/ncas/alerts
