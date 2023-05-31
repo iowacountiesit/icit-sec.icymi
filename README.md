@@ -11,6 +11,7 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
+:floppy_disk: [2023-05-31](slides/2023-05-31.icit-sec.icymi.slides.md) | 2020 Iranian Election Attempted Attack, Google Authenticator Sync,<br>AT&T Email Compromises, Salesforce Leakage, Google &amp; Twitter Expiries,<br>Montana TikTok Ban, .zip and .mov TLDs, KeePass vuln,<br>BrutePrint vs. Fingerprints, Curry County (OR) Ransomware, San Bernadino County Pay-out,<br>PRC Living Off the Land (LOL), ICIT Proofpoint Hall of Famer
 :floppy_disk: [2023-04-26](slides/2023-04-26.icit-sec.icymi.slides.md) | Traffers, 802.11 Bugs, Apple WebKit Vuln, AI Open Letter, Combosquatting<br>3CX Supply Chain, Exchange vs. Exchange, Malicious OneNote,<br>ChatGPT Banned in Italy, Western Digital Breach, SWATting as a Service<br>Play's Bespoke Tools, Papercut Pain, OCIO Services Webinar
 :floppy_disk: [2023-03-29](slides/2023-03-29.icit-sec.icymi.slides.md) | DoD Azure Email Spill, Voice Bypass to Banking Access, LastPass (again),<br>New White House Cyber Plan, Cerebral Telehealth Patient Data,<br>aCROPalypse NOW, ChatGPT Leakage Bug, Literal USB Bombs, Kali 2023.1,<br>Outlook &amp; Veeam Vulns
 :floppy_disk: [2023-02-22](slides/2023-02-22.icit-sec.icymi.slides.md) | Biometrics strike back, Google Home speaker vuln, Rackspace Exchange ransomware,<br>ChatGPT and AI/ML, iOS 16.3 iCloud encryption, ODIN breach,<br>No Fly List posted, gg DOJ on Hive, GoTo breach follow-up,<br>TikTok response to concerns, Iowa cyber bills, CISA opinion piece
