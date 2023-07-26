@@ -11,6 +11,7 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
+:floppy_disk: [2023-07-26](slides/2023-07-26.icit-sec.icymi.slides.md) | SEC v. SolarWinds, Fortigate Patch Kids, Threads Privacy?, TootRoot,<br>More on MS Breach, Cyber Nutrition Facts, .ml is not .mil, VirusTotal,<br>Google Web DRM and Webless Work, TETRA Weakness, Zenbleed
 :floppy_disk: [2023-06-28](slides/2023-06-28.icit-sec.icymi.slides.md) | Short &amp; Sweet: Barracuda, Priority Dispatch, MOVEit-MOVEit, MS DDoS
 :floppy_disk: [2023-05-31](slides/2023-05-31.icit-sec.icymi.slides.md) | 2020 Iranian Election Attempted Attack, Google Authenticator Sync,<br>AT&T Email Compromises, Salesforce Leakage, Google &amp; Twitter Expiries,<br>Montana TikTok Ban, .zip and .mov TLDs, KeePass vuln, BrutePrint vs. Fingerprints,<br>Curry County (OR) Ransomware, San Bernadino County Pay-out,<br>PRC Living Off the Land (LOL), ICIT Proofpoint Hall of Famer
 :floppy_disk: [2023-04-26](slides/2023-04-26.icit-sec.icymi.slides.md) | Traffers, 802.11 Bugs, Apple WebKit Vuln, AI Open Letter, Combosquatting<br>3CX Supply Chain, Exchange vs. Exchange, Malicious OneNote,<br>ChatGPT Banned in Italy, Western Digital Breach, SWATting as a Service<br>Play's Bespoke Tools, Papercut Pain, OCIO Services Webinar
