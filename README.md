@@ -11,7 +11,7 @@ We'll link to articles on the web. All materials are copyright their respective 
 
 Meeting Date | Highlights
 --- | ---
-:floppy_disk: [2023-09-27](slides/2023-09-27.icit-sec.icymi.slides.md) | iPhone 0-click 0-day, MS 2x 0-days, DC31 BWC Bluetooth, LastPass Update<br>CISA Report on VDP, Kroll Breach SIM Swap, WinRAR vuln, Kernelcon 2024,<br>MGM and Caesars breaches, National Student Clearinghouse breach, Critical vuln in libwebp
+:floppy_disk: [2023-09-27](slides/2023-09-27.icit-sec.icymi.slides.md) | iPhone 0-click 0-day, MS 2x 0-days, DC31 BWC Bluetooth, LastPass Update<br>CISA Report on VDP, Kroll Breach SIM Swap, WinRAR vuln, Kernelcon 2024,<br>MGM and Caesars breaches, National Student Clearinghouse breach,<br>Critical vuln in libwebp
 :floppy_disk: [2023-07-26](slides/2023-07-26.icit-sec.icymi.slides.md) | SEC v. SolarWinds, Fortigate Patch Kids, Threads Privacy?, TootRoot,<br>More on MS Breach, Cyber Nutrition Facts, .ml is not .mil, VirusTotal,<br>Google Web DRM and Webless Work, TETRA Weakness, Zenbleed
 :floppy_disk: [2023-06-28](slides/2023-06-28.icit-sec.icymi.slides.md) | Short &amp; Sweet: Barracuda, Priority Dispatch, MOVEit-MOVEit, MS DDoS
 :floppy_disk: [2023-05-31](slides/2023-05-31.icit-sec.icymi.slides.md) | 2020 Iranian Election Attempted Attack, Google Authenticator Sync,<br>AT&T Email Compromises, Salesforce Leakage, Google &amp; Twitter Expiries,<br>Montana TikTok Ban, .zip and .mov TLDs, KeePass vuln, BrutePrint vs. Fingerprints,<br>Curry County (OR) Ransomware, San Bernadino County Pay-out,<br>PRC Living Off the Land (LOL), ICIT Proofpoint Hall of Famer
